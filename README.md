@@ -1,1 +1,1 @@
-# linguaConnect
+# Lingua Connect
