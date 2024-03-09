@@ -33,10 +33,24 @@
           <option value="advanced">Advanced</option>
         </select>
         <input type="number" placeholder="Max Price">
-        <button>Search</button>
+        <label for="lesson-length">Lesson Length:</label>
+        <select id="lesson-length">
+          <option value="45">45 minutes</option>
+          <option value="60">60 minutes</option>
+          <option value="90">90 minutes</option>
+        </select>
+        <label for="time-slot">Time Slot:</label>
+        <select id="time-slot">
+          <option value="9am">9:00 AM</option>
+          <option value="10am">10:00 AM</option>
+          <!-- time-slot chosen by student -->
+        </select>
+        <button id="search-button" onclick="
+        addLang();
+        ">Search</button>
       </div>
       <div class="search-results">
-        <!-- Search results will be displayed here -->
+        <!-- for search results -->
       </div>
 
     </div>
@@ -45,6 +59,8 @@
   <footer>
     <p>&copy; 2024 LinguaConnect (Your desination to learn a language)</p>
   </footer>
+
+  <script src="javascript/search.js"></script>
 </body>
 
 </html>
