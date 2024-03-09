@@ -1,0 +1,50 @@
+body {
+  margin: none;
+  padding: none;
+}
+
+
+body {
+  background-color: #a8dadc;
+}
+
+.signin {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  height: 470px;
+  width: 320px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #457b9d;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.signin p {
+  margin: 20px 0px;
+}
+
+.email-input {
+  margin: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 240px;
+  border-radius: 50px;
+  padding-left: 15px;
+}
+
+.signin button {
+  margin-top: 20px;
+  width: 258px;
+  height: 35px;
+}
